@@ -1,19 +1,10 @@
 # ABI interface files for the OKX DEX aggregator
 
-# ETH合约地址
+# ETH Contract Address
 
 ```
-// 入口合约地址
 dexRouter: "0x3b3ae790Df4F312e745D270119c6052904FB6790",
 tokenApprove: "0x40aA958dd87FC8305b97f2BA922CDdCa374bcD7f",
-
-```
-
-```
-// 内部组件合约地址
-wNativeToken: "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-wNativeRelayer: "0x5703B683c7F928b721CA95Da988d73a3299d4757",
-tokenApproveProxy: "0x70cBb871E8f30Fc8Ce23609E9E0Ea87B6b222F58",
 
 ```
 
@@ -62,26 +53,11 @@ XSigmaAdapter: 0x4ecED2f6Bf29c519f9410056bC9B6309c71992A7
 
 ```
 
-用户开发团队测试的 router 合约地址
-
-```
-dexRouter(Dev): "0xc6de6a35eC4fF403914272a024820F2aBC5Bded7",
-
-```
-
-# ETHW合约地址
+# ETHW Contract Address
 
 ```
 tokenApprove: "0x40aA958dd87FC8305b97f2BA922CDdCa374bcD7f",
 dexRouter: "0x3b3ae790Df4F312e745D270119c6052904FB6790",
-
-```
-
-```
-内部组件合约
-wNativeToken: "0x7Bf88d2c0e32dE92CdaF2D43CcDc23e8Edfd5990",
-wNativeRelayer: "0x4D8d82F269A2704867b6cAf58d6e8389e3066eC9",
-tokenApproveProxy: "0x70cBb871E8f30Fc8Ce23609E9E0Ea87B6b222F58",
 
 ```
 
@@ -111,7 +87,7 @@ dnyAdapter: "0xb3Df02AF5FbC5579D6D7eBfC4F0F70e7Ef126E52"
 
 ```
 
-# TRON合约地址
+# TRON Contract Address
 
 ```
 dexrouter:
@@ -127,18 +103,6 @@ THRAE2VhGNAcvPKtT96AqyXtSQwhiU1XL8
 Adapters:
 
 ```
-参数中代表nativeToken:
-T9yD14Nj9j7xAB4dbGeiX9h8unkKHxuWwb
-0x0000000000000000000000000000000000000000
-
-TokenApproveProxy:
-TXUhafKkNrfDG5BeDssyRpiVLZVUNEzNW4
-0xEBEE8FAA7909DFB1DF0BC4B797672D30EA30B568
-
-WNativeRelayer:
-TWeLgujAKtiqut5Pp6oNfmVkeSaH5SBFYc
-0xe2c927b0b939aadb945668b012ec3bb6cdd722ea
-
 WTRX:
 TNUC9Qb1rRpS5CbWLmNMxXBjyFoydXjWFR
 0x891CDB91D149F23B1A45D9C5CA78A88D0CB44C18
@@ -146,31 +110,13 @@ TNUC9Qb1rRpS5CbWLmNMxXBjyFoydXjWFR
 uniV2Adapter:
 TQBBr9Juw7MKDw7fthA3MNDkGzUEsbT7yb
 
-TRON的一些function_selector：
-approve：approve(address,uint256)
-unxswap：unxswap(address,uint256,uint256,bytes32[])
-smartswap：smartSwap((uint256,address,uint256,uint256,uint256),uint256[],(address[],address[],uint256[],bytes[],uint256)[][],(uint256,address,address,address,uint256,uint256,uint256,uint256,bool,bytes)[])
-deposit：deposit()
-withdraw：withdraw(uint256)
-
-这里包含一些 tron 的数据信息
-https://okg-block.larksuite.com/docs/docuszMhDbVUvi4MMqxNRVzwVWb
-
 ```
 
-# POLYGON合约地址
+# POLYGON Contract Address
 
 ```
 dexRouter: "0xA748D6573acA135aF68F2635BE60CB80278bd855",
 tokenApprove: "0x3B86917369B83a6892f553609F3c2F439C184e31",
-
-```
-
-```
-wNativeToken: "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
-wNativeRelayer: "0xf332761c673b59B21fF6dfa8adA44d78c12dEF09",
-tokenApproveProxy: "0x40aA958dd87FC8305b97f2BA922CDdCa374bcD7f",
-dexRouter(Dev): "0x75cDBdD09B5c9e1D785e66A785918Cf0725F9b56",
 
 ```
 
@@ -202,7 +148,7 @@ DfxAdapter: 0x6667C8dC9fBFeC411E7C1EE2b24DE960149f930f
 
 ```
 
-# AVAX合约地址
+# AVAX Contract Address
 
 ```
 tokenApprove: "0x40aA958dd87FC8305b97f2BA922CDdCa374bcD7f",
@@ -213,9 +159,6 @@ dexRouter: "0x1daC23e41Fc8ce857E86fD8C1AE5b6121C67D96d",
 Adapters:
 
 ```
-wNativeToken: "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
-wNativeRelayer: "0x3B86917369B83a6892f553609F3c2F439C184e31",
-tokenApproveProxy: "0x70cBb871E8f30Fc8Ce23609E9E0Ea87B6b222F58",
 uniV2: "0x078b9259b4dc543eCa8F85A70d4635F403238D21"
 GMXAdapter: "0xbF1840d0dB54357287Cf0736A1426Ea93321B0F7"
 dnyFeeAdapter: "0x47B5BC2C49aD25dFa6d7363c5e9B28eF804e1185"
@@ -238,18 +181,11 @@ TraderJoeV2P1Adapter: 0x6667C8dC9fBFeC411E7C1EE2b24DE960149f930f
 
 ```
 
-# FTM合约地址
+# FTM Contract Address
 
 ```
 dexRouter: "0xf332761c673b59B21fF6dfa8adA44d78c12dEF09",
 tokenApprove: "0x70cBb871E8f30Fc8Ce23609E9E0Ea87B6b222F58",
-
-```
-
-```
-wNativeToken: "0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83",
-wNativeRelayer: "0x40aA958dd87FC8305b97f2BA922CDdCa374bcD7f",
-tokenApproveProxy: "0xE9BBD6eC0c9Ca71d3DcCD1282EE9de4F811E50aF",
 
 ```
 
@@ -270,22 +206,14 @@ saddleAdapter: "0xFc1387e7AF2f476BFF03BdBe8562eE4A0d955200"
 synapseAdapter: 0xC48814169C7AC574579D680F49c3784A657CA493
 beethovenAdapter: 0x1ed4ae8Dce02A398465BB276aBF114Ce06f424eB
 IronswapAdapter: 0x82b0EC4A17520C56C8dB9887532f92e924507989
-solidlyAdapter: 0x2E3329902b725bd1Ae774fB3dacBAe0626820Db4(复用SolidlySeriesAdapter)
 
 ```
 
-# ARB合约地址
+# ARB Contract Address
 
 ```
 dexRouter: "0xf332761c673b59B21fF6dfa8adA44d78c12dEF09",
 tokenApprove: "0x70cBb871E8f30Fc8Ce23609E9E0Ea87B6b222F58",
-
-```
-
-```
-wNativeToken: "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
-wNativeRelayer: "0xd99cAE3FAC551f6b6Ba7B9f19bDD316951eeEE98",
-tokenApproveProxy: "0xE9BBD6eC0c9Ca71d3DcCD1282EE9de4F811E50aF",
 
 ```
 
@@ -321,7 +249,7 @@ ChronosAdapter: 0x21fD4D4e056E8022Eb13898D75F75670e16DfDC4
 
 ```
 
-# OP合约地址
+# OP Contract Address
 
 ```
 dexRouter: "0xf332761c673b59B21fF6dfa8adA44d78c12dEF09",
@@ -330,9 +258,6 @@ tokenApprove: "0x68D6B739D2020067D1e2F713b999dA97E4d54812",
 ```
 
 ```
-wNativeToken: "0x4200000000000000000000000000000000000006",
-wNativeRelayer: "0x40aA958dd87FC8305b97f2BA922CDdCa374bcD7f",
-tokenApproveProxy: "0x100F3f74125C8c724C7C0eE81E4dd5626830dD9a",
 uniV2: "0x808ca026D4c45d6A41c1e807c41044480b7699eF",
 uniV3: "0x443EF018e182d409bcf7f794d409bCea4C73C2C7"
 dnyAdapter: "0x98b7597F02CC38E8aF02fBE8E68f2D15D33214bB"
@@ -350,7 +275,7 @@ saddleAdapter: 0xABC7f0BEf82C4BF6A131758bbd92bdAFa63797DB
 
 ```
 
-# CRO合约地址
+# CRO Contract Address
 
 ```
 tokenApprove: "0x70cbb871e8f30fc8ce23609e9e0ea87b6b222f58",
@@ -359,28 +284,16 @@ dexRouter: "0xf332761c673b59B21fF6dfa8adA44d78c12dEF09",
 ```
 
 ```
-wNativeToken: "0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23",
-wNativeRelayer: "0x40aA958dd87FC8305b97f2BA922CDdCa374bcD7f",
-tokenApproveProxy: "0xE9BBD6eC0c9Ca71d3DcCD1282EE9de4F811E50aF",
-uniV2: "0x443EF018e182d409bcf7f794d409bCea4C73C2C7"
+uniV2Adapter: "0x443EF018e182d409bcf7f794d409bCea4C73C2C7"
 IZumiAdapter: 0x9EA2d43A55F4E6674FBf8DEe75e3C1506c4C3c83
 
 ```
 
-# BNBChain合约地址
+# BNBChain Contract Address
 
 ```
 tokenApprove: "0x2c34A2Fb1d0b4f55de51E1d0bDEfaDDce6b7cDD6",
 dexRouter: "0x9333C74BDd1E118634fE5664ACA7a9710b108Bab",
-
-```
-
-```
-wNativeToken: "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
-wNativeRelayer: "0x0B5f474ad0e3f7ef629BD10dbf9e4a8Fd60d9A48",
-tokenApproveProxy: "0xd99cAE3FAC551f6b6Ba7B9f19bDD316951eeEE98",
-// marketMaker:  "0x5C9e126D741938a3f37341160F20a982ea584e30",
-// pmmAdapter:  "0xa9ED3b2cF413C4f8988fE95A923B17cdDB4f432d",
 
 ```
 
@@ -421,18 +334,11 @@ XSigmaAdapter: 0x6667C8dC9fBFeC411E7C1EE2b24DE960149f930f
 
 ```
 
-# OKC合约地址
+# OKC Contract Address
 
 ```
 dexRouter: "0xf6Aab105CB9e66e03CAD2c2F3f8558242593385c",
 tokenApprove: "0x70cBb871E8f30Fc8Ce23609E9E0Ea87B6b222F58",
-
-```
-
-```
-wNativeToken: "0x8f8526dbfd6e38e3d8307702ca8469bae6c56c15",
-wNativeRelayer: "0xd99cAE3FAC551f6b6Ba7B9f19bDD316951eeEE98",
-tokenApproveProxy: "0xE9BBD6eC0c9Ca71d3DcCD1282EE9de4F811E50aF",
 
 ```
 
@@ -447,14 +353,14 @@ dodoV2Adapter: "0xE3863f6A2E5144954d17b6A782407D441ADF4345"
 
 ```
 
-# Solana合约地址
+# Solana Contract Address
 
 ```
 dexRouter: "4itxBe4qBAwhB9zpEAw31d7w8o7gTQscYpxhRtUemjF9",
 
 ```
 
-Solana 系统合约地址
+Solana 系统 Contract Address
 
 ```
 SystemProgram: "11111111111111111111111111111111",
@@ -464,7 +370,7 @@ WrappedSOL: "So11111111111111111111111111111111111111112",
 
 ```
 
-# Aptos合约地址
+# Aptos Contract Address
 
 ```
 unxswap: f5254f476f8fd704b6051fcb85c43a84c4d13fb92c22b7cd3b8bd79d3b3b24bd
@@ -479,7 +385,7 @@ pontem_adapter: 2a74a848503cb5d979f4691b3b75cca324f6b87bf6aea2da0e4cc91281353994
 
 ```
 
-# Flare合约地址
+# Flare Contract Address
 
 ```
 TokenApprove：0x808ca026D4c45d6A41c1e807c41044480b7699eF
@@ -487,7 +393,7 @@ DexRouter：0x078b9259b4dc543eCa8F85A70d4635F403238D21
 
 ```
 
-# ZkSync合约地址
+# ZkSync Contract Address
 
 ```
 DexRouter: 0xb9061E38FeE7d30134F56aEf7117E2F6d1580666
@@ -516,7 +422,7 @@ IntergralAdapter:
 
 ```
 
-# Conflux 合约地址
+# Conflux  Contract Address
 
 ```
 DexRouter: 0x0112bc6fDB78345e612B862a6B388FfeB00E2320
@@ -537,7 +443,7 @@ IZumiAdapter: "0x022fBeFfA9B0422F0A2Eab63A75533c48a13cC38"
 
 ```
 
-# Sui 合约地址
+# Sui  Contract Address
 
 ```
 dexrouter:0xd54a307333ab8d9cf284c544dcfc13e31b0e3d0469e98e7d1dfd2c616dbab7c7
@@ -567,7 +473,7 @@ quickswapv3Adapter: 0xf304C7323D9101cd90c05696c97a4cF984A9f6A5
 
 # Kronos PMM RFQ Address
 
-需要 kronos 的 eoa 地址对 pmmProtocol 进行授权
+Require Kronos' EOA address to authorize pmmProtocol
 
 ```
 kronos pmmProtocol: 0xbcd0fCD2CEF53B927F7FA75F57D08c28862Ed975
