@@ -360,7 +360,7 @@ dexRouter: "4itxBe4qBAwhB9zpEAw31d7w8o7gTQscYpxhRtUemjF9",
 
 ```
 
-Solana 系统 Contract Address
+Solana System Contract Address
 
 ```
 SystemProgram: "11111111111111111111111111111111",
