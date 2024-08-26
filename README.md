@@ -133,9 +133,6 @@ unxswap：unxswap(address,uint256,uint256,bytes32[])
 smartswap：smartSwap((uint256,address,uint256,uint256,uint256),uint256[],(address[],address[],uint256[],bytes[],uint256)[][],(uint256,address,address,address,uint256,uint256,uint256,uint256,bool,bytes)[])
 deposit：deposit()
 withdraw：withdraw(uint256)
-
-这里包含一些 tron 的数据信息
-https://okg-block.larksuite.com/docs/docuszMhDbVUvi4MMqxNRVzwVWb
 ```
 ## POLYGON合约地址
 ```js
